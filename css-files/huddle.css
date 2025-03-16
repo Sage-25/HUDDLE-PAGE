@@ -1,0 +1,245 @@
+.first-section {
+  background-color: hsl(193, 100%, 96%);
+  background-image: url(../image-container/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding-block-start: 3rem;
+  padding-block-end: 4rem;
+  margin-inline-start: 5rem;
+  margin-inline-end: 5rem;
+}
+
+.header-button-container {
+  text-align: end;
+}
+
+.huddle-logo {
+  width: 10rem;
+}
+
+.header-button {
+  border: 0 solid;
+  background-color: white;
+  color: hsl(192, 100%, 9%);
+  border: 4rem;
+  padding: 1rem 3rem;
+  border-radius: 4rem;
+  box-shadow: 0 0 0.5rem hsl(180, 5%, 92%);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.header-button:hover {
+  color: hsl(192, 13%, 52%);
+}
+
+/*hero container*/
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 6rem;
+  margin-inline-start: 5rem;
+  margin-inline-end: 5rem;
+  padding-block-end: 4rem;
+}
+
+.header-illustration {
+  justify-content: end;
+}
+
+.header-image {
+  width: 100%;
+}
+
+.body-header-text {
+  font-size: 3.5rem;
+  color: hsl(192, 100%, 9%);
+  margin-block-end: 1.5rem;
+}
+
+.body-text {
+  color: hsl(192, 100%, 9%);
+  line-height: 2rem;
+  margin-block-end: 1.5rem;
+}
+
+.body-button {
+  border: 0 solid;
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(0, 0%, 100%);
+  border: 4rem;
+  padding: 1rem 3rem;
+  border-radius: 4rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.body-button:hover {
+  background-color: hsl(322, 76%, 80%);;
+}
+
+/*body section*/
+.body-section {
+  display: grid;
+  gap: 2rem;
+  margin-block-start: 10rem;
+  margin-inline-start: 10rem;
+  margin-inline-end: 10rem;
+  margin-block-end: 10rem;
+}
+
+.body-section-containers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 0 0.5rem hsl(180, 5%, 92%);
+  gap: 6rem;
+
+  padding: 4rem 6rem;
+  border-radius: 1.5rem;
+}
+
+.body-illustrations {
+  width: 70%;
+}
+
+.body-header {
+  color: hsl(192, 100%, 9%);
+  margin-block-end: 1rem;
+}
+
+.body-body-text {
+  color: hsl(208, 11%, 55%);
+  line-height: 1.5rem;
+}
+
+/*footer*/
+.footer {
+  display: grid;
+  grid-template-columns: auto;
+  justify-items: center;
+  /* position: absolute; */
+}
+
+.top-note {
+  justify-items: center;
+  background-color: white;
+  padding: 4rem 4rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.5rem hsl(0, 0%, 89%);
+  width: 30rem;
+  position: relative;
+  top: 6rem;
+}
+
+.top-note-header {
+  text-align: center;
+  color: hsl(192, 100%, 9%);
+  margin-block-end: 1.5rem;
+}
+
+.bottom-footer {
+  background-color: hsl(192, 100%, 9%);
+  padding-block-start: 8rem;
+  padding-inline-start: 4rem;
+  padding-inline-end: 4rem;
+}
+
+.second-section-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-block-end: 2rem;
+  gap: 3rem;
+}
+
+.bottom-logo {
+  width: 10rem;
+  margin-block-end: 1.5rem;
+}
+
+.location {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.5rem;
+}
+
+.email {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.email-icon {
+  margin-block-start: 0.2rem;
+}
+
+.call {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 1.5rem;
+  margin-block-end: 1rem;
+}
+
+.location {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.5rem;
+  margin-block-end: 1rem;
+}
+
+.location-icon {
+  margin-block-start: 0.2rem;
+}
+
+.footer-text-one {
+  color: hsl(193, 100%, 96%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footer-text-one:hover {
+  text-decoration: underline;
+}
+
+.footer-text-one-one {
+  margin-block-end: 1rem;
+  color: hsl(193, 100%, 96%);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.footer-text-one-one:hover {
+  text-decoration: underline;
+}
+
+.social-logo-one {
+  width: 2rem;
+  margin-inline-end: 1.5rem;
+}
+
+.social-logo {
+  width: 2rem;
+}
+
+.last-footer {
+  background-color: hsl(192, 100%, 9%);
+  padding-block-end: 4rem;
+}
+
+.last-footer-text {
+  text-align: end;
+  color: hsl(193, 100%, 96%);
+}

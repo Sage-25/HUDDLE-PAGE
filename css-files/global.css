@@ -1,0 +1,21 @@
+p,
+h1,
+Button {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans, Poppins;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  align-items: center;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
