@@ -18,4 +18,5 @@ section {
 section {
   display: grid;
   grid-template-columns: 1fr;
+  overflow-x: 0;
 }

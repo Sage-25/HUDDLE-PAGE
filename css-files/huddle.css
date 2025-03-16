@@ -231,7 +231,7 @@
 }
 
 .social-logo {
-  width: 2rem;
+  max-width: 2rem;
 }
 
 .last-footer {
